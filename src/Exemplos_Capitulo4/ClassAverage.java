@@ -17,7 +17,7 @@ package Exemplos_Capitulo4;
             // fase de processamento utiliza repetição controlada por contador
             while (gradeCounter <= 10) // faz o loop 10 vezes
             {
-                System.out.printf("Enter grade: "); // prompt
+                System.out.print("Enter grade: "); // prompt
                 int grade = input.nextInt(); // insere a próxima nota
                 total = total + grade; // adiciona grade a total
                 gradeCounter = gradeCounter + 1; // incrementa o contador por 1
