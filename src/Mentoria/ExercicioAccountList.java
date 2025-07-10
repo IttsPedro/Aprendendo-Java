@@ -14,7 +14,7 @@ public class ExercicioAccountList {
         accounts.add(new Account("Pedro", 100.00));
         accounts.add(new Account("Anna", 120.00));
 
-        // Usei for-each para mostrar o saldo das contas
+        // Usei for para mostrar o saldo das contas
         for (Account account : accounts)
         {
             displayAccount(account);

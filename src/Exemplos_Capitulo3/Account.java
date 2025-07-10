@@ -1,10 +1,11 @@
 package Exemplos_Capitulo3;
 // Figura 3.8: Account1.java
 // Classe Account com uma variável de instância balance do tipo double e um construtor
-// e mpetodo deposit que executa a validação
+// e método deposit que executa a validação
 
-public class Account
-{
+import java.util.ArrayList;
+
+public class Account extends ArrayList<Account> {
     private String name; // variável de instância
     private double balance; // variável de instância
 
@@ -33,16 +34,14 @@ public class Account
     }
 
     // método que define o nome
-
     public void setName(String name)
     {
         this.name = name;
     }
 
     // método que retorna o nome
-
     public String getName()
     {
         return name; // retorna o valor de name ao chamador
     } // fim da método getName
-} // fim da classe Account
+}// fim da classe Account
