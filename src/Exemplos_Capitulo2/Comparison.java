@@ -1,5 +1,5 @@
 package Exemplos_Capitulo2;
-// Figura 2.15: Comaprison.Java
+// Figura 2.15: Comparison.java
 // Compara inteiros utilizando instruções IF, operadores relacionais e operadores de igualdade.
 
 import java.util.Scanner; // programa utiliza a classe Scanner

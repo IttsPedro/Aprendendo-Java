@@ -30,9 +30,6 @@ public class Aritmética
         System.out.printf("Plus is %d%n ", plus);
         System.out.printf("Difference is %d%n ", difference);
         System.out.printf("Divide is %d%n ", divide);
-
-
-
     }
 }
 

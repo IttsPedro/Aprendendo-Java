@@ -1,4 +1,4 @@
-package Exercicios_Capitulo2;
+package Exemplos_Capitulo2;
 // Figura 2.6: Welcome4.Java
 // Exibindo mútiplas linhas com o método System.out.printf.
 
