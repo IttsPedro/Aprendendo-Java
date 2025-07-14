@@ -1,5 +1,5 @@
 package Exemplos_Capitulo2;
-// Figura 2.7: Addition.Java
+// Figura 2.7: Addition.java
 // Programa de adição que insere dois números, então exibe a soma deles.
 import java.util.Scanner; // programa utiliza a classe Scanner
 
@@ -18,7 +18,7 @@ public class Addition
         System.out.print("Enter first integer: "); // prompt
         number1 = input.nextInt(); // lê primeiro o número fornecido pelo usuário
 
-        System.out.print("Enter second integer: "); // promp
+        System.out.print("Enter second integer: "); // prompt
         number2 = input.nextInt(); // lê o segundo número fornecido pelo usuário
 
         sum = number1 + number2; // soma os números, depois armazena o total em sum

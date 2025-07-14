@@ -6,22 +6,16 @@ public class Invoice
     // variáveis de instância
     private String number, description;
     private int quantity; // quantidade comprada de um item
-    private double Itemprice; // preço por item
+    private double ItemPrice; // preço por item
 
     //criando um construtor da classe
-    //iniciando as variaveis de instancia
-
-    public Invoice()
-    {
-
-    }
-
-    public Invoice (String number, String description, int quantity, double Itemprice)
+    //iniciando as variáveis de instância
+    public Invoice (String number, String description, int quantity, double ItemPrice)
     {
         this.number = number;
         this.description = description;
         this.quantity = quantity;
-        this.Itemprice = Itemprice;
+        this.ItemPrice = ItemPrice;
 
     }
 
@@ -56,20 +50,20 @@ public class Invoice
         return quantity;
     }
 
-    public void setItemprice(double Itemprice)
+    public void setItemPrice(double ItemPrice)
     {
-        if (Itemprice > 0.0)
-            this.Itemprice = Itemprice;
+        if (ItemPrice > 0.0)
+            this.ItemPrice = ItemPrice;
     }
 
     public double getItemprice()
     {
-        return Itemprice;
+        return ItemPrice;
     }
 
     public double getGetInvoiceAmount()
     {
-        return Itemprice * quantity;
+        return ItemPrice * quantity;
     }
-
 }
+
