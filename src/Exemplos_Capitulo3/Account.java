@@ -5,17 +5,18 @@ package Exemplos_Capitulo3;
 
 import java.util.ArrayList;
 
-public class Account extends ArrayList<Account> {
-    private String name; // variável de instância
-    private double balance; // variável de instância
+    public class Account extends ArrayList<Account>
+    {
+        private String name; // variável de instância
+        private double balance; // variável de instância
 
     // Construtor de Account que recebe dois parâmetros
-    public Account(String name, double balance)
+        public Account(String name, double balance)
     {
         this.name = name; // atribui name à variável de instância name
 
-        // valida que o balance é maior que 0.0; se não for,
-        // a variável de instância balance mantém se valor inicial padrão de 0.0
+        // valida que o balance é maior que 0,0; se não for,
+        // a variável de instância balance mantém se valor inicial padrão de 0,0
         if (balance > 0.0) // se o saldo for válido
             this.balance = balance; // o atribui à variável de instância balance
     }

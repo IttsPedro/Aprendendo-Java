@@ -1,52 +1,58 @@
 package Exercicios_Capitulo3;
 // Exercício 3.13: Employee
-public class Employee
-{
+public class Employee {
     // variáveis de instâncias
-    private String nome;
-    private String sobrenome;
-    private double salario;
+    private String name;
+    private String lastName;
+    private double monthlySalary;
 
     // construtor
-    public Employee(String nome, String sobrenome, double salario)
-    {
-        this.nome = nome;
-        this.sobrenome = sobrenome;
-        if (salario > 0) {
-            this.salario = salario;
-        }
+    public Employee(String name, String lastName, double monthlySalary) {
+        this.name = name;
+        this.lastName = lastName;
+        if (monthlySalary > 0)
+            this.monthlySalary = monthlySalary;
     }
 
-    // método set e get
-    public void setNome(String nome)
+    public String getName()
     {
-        this.nome = nome;
+        return name;
     }
 
-    public void setSobrenome(String sobrenome)
+    public void setName(String name)
     {
-        this.sobrenome = sobrenome;
+        this.name = name;
     }
 
-    public void setSalario(double salario)
+    public String getLastName()
     {
-        if (salario > 0) {
-            this.salario = salario;
-        }
+        return lastName;
     }
 
-    public String getNome()
+    public void setLastName(String lastName)
     {
-        return nome;
+        this.lastName = lastName;
     }
 
-    public String getSobrenome()
+    public double getMonthlySalary()
     {
-        return sobrenome;
+        return monthlySalary;
     }
 
-    public double getSalario()
+    public void setMonthlySalary(double monthlySalary)
     {
-        return salario;
+        if (monthlySalary > 0)
+            this.monthlySalary = monthlySalary;
     }
+
+    public double getAnnualSalary()
+    {
+        return monthlySalary * 12;
+    }
+
+    public void giveRaise()
+    {
+        monthlySalary = monthlySalary * 1.10;
+    }
+
 }

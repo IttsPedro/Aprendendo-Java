@@ -5,14 +5,10 @@ public class DateTest
     public static void main(String[] args)
     {
         Date date = new Date(27,12,1998);
+        Date date2 = new Date(12,4,2000);
 
         date.displayDate();
-
-        date.setDia(12);
-        date.setMês(04);
-        date.setAno(2000);
-
-        date.displayDate();
+        date2.displayDate();
 
     }
 }

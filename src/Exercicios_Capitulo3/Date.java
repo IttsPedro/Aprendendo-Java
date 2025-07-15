@@ -2,12 +2,12 @@ package Exercicios_Capitulo3;
 // Exercício 3.14 Date.java
 public class Date
 {
-    private int dia, mês, ano;
+    private int dia, mes, ano;
 
-    public Date (int dia, int mês, int ano )
+    public Date (int dia, int mes, int ano )
     {
         this.dia = dia;
-        this.mês = mês;
+        this.mes = mes;
         this.ano = ano;
 
     }
@@ -17,9 +17,9 @@ public class Date
         this.dia = dia;
     }
 
-    public void setMês(int mês)
+    public void setMes(int mes)
     {
-        this.mês = mês;
+        this.mes = mes;
     }
 
     public void setAno(int ano)
@@ -32,9 +32,9 @@ public class Date
         return dia;
     }
 
-    public int getMês()
+    public int getMes()
     {
-        return mês;
+        return mes;
     }
 
     public int getAno()
@@ -44,6 +44,6 @@ public class Date
 
     public void displayDate()
     {
-        System.out.printf("%d / %d / %d %n", getDia(), getMês(), getAno());
+        System.out.printf("%d / %d / %d %n", getDia(), getMes(), getAno());
     }
 }
