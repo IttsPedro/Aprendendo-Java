@@ -32,7 +32,7 @@ package Exemplos_Capitulo4;
         // define a média de Student
         public void setAverage(double studentAverage)
         {
-           // valida que a média é > 0.0 e <= 100.0; caso contrário,
+           // valida que a média é > 00 e <= 100.0; caso contrário,
            // armazena o valor atual da média da variável de instãncia
            if (average > 0.0)
                if (average <= 100.0)
@@ -48,7 +48,8 @@ package Exemplos_Capitulo4;
         // determina e retorna a letra da nota de Student
         public String getLetterGrade()
         {
-            String letterGrade = ""; // inicializando como uma String vazia
+            String letterGrade = " "; // inicializando como uma String vazia
+
             if (average >= 90.0)
                 letterGrade = "A";
             else if (average >= 80.0)

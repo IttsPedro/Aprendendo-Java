@@ -31,7 +31,7 @@ package Exemplos_Capitulo4;
             }
 
             // fase de término
-            // se o usuário inserio pelo menos uma nota...
+            // se o usuário inseriu pelo menos uma nota...
             if (gradeCounter != 0)
             {
                // usa número com ponto decimal para calcular média das notas

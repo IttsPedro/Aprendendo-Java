@@ -1,11 +1,11 @@
 package Exemplos_Capitulo4;
-    // Figura 4.8: ClassAverage.java
-    // Resolvendo o problema da média da classe usando a repetição controlada por contador.
-    import java.util.Scanner; // Programa utiliza a classe Scanner
+// Figura 4.8: ClassAverage.java
+// Resolvendo o problema da média da classe usando a repetição controlada por contador.
+import java.util.Scanner; // Programa utiliza a classe Scanner
 
-    public class ClassAverage
-    {
-        public static void main(String[] args)
+public class ClassAverage
+{
+    public static void main(String[] args)
         {
             // cria Scanner para obter entrada a partir da janela de comando
             Scanner input = new Scanner(System.in);
