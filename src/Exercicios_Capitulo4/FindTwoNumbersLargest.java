@@ -9,13 +9,14 @@ public class FindTwoNumbersLargest
 
         int largest;
         int secondLargest;
-        int count = 1;
+        int counter = 1;
         int number;
 
 
         System.out.print("Enter first number: ");
         number = input.nextInt();
         largest = number;
+        counter++;
 
         System.out.print("Enter second number: ");
         number = input.nextInt();
@@ -29,11 +30,11 @@ public class FindTwoNumbersLargest
           {
               secondLargest = number;
           }
-           count = 3;
+           counter++;
 
-          while (count <= 10)
+          while (counter <= 10)
           {
-              System.out.printf("Digite o " + count + "° número: ");
+              System.out.printf("Digite o " + counter + "° número: ");
               number = input.nextInt();
 
               if (number > largest)
@@ -46,7 +47,7 @@ public class FindTwoNumbersLargest
                   secondLargest = number;
               }
 
-              count++;
+              counter++;
           }
         System.out.println("O maior número é: " + largest);
         System.out.println("O segundo maior número é: " + secondLargest);
