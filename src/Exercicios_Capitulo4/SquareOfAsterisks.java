@@ -1,10 +1,9 @@
 package Exercicios_Capitulo4;
+
 import java.util.Scanner;
 
-public class SquareOfAsterisks
-{
-    public static void main(String[] args)
-    {
+public class SquareOfAsterisks {
+    public static void main(String[] args) {
         Scanner input = new Scanner(System.in);
 
         int size;
@@ -13,19 +12,15 @@ public class SquareOfAsterisks
 
         System.out.print("Enter the size of Square (1-20): ");
         size = input.nextInt();
-        
-        while (row <= size)
-        {
+
+        while (row <= size) {
             col = 1;
-            while (col <= size)
-            {
+            while (col <= size) {
                 if (row == 1 || row == size)
                     System.out.printf("*");
-                else if (col == 1 || col == size)
-                {
+                else if (col == 1 || col == size) {
                     System.out.printf("*");
-                }
-                else
+                } else
                     System.out.printf(" ");
 
                 col++;
